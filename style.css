@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    position: relative;
+}
+section {
+    text-align: center;
+    background-color: #e2e0e0;
+    padding: 20px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+a:hover {
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+#blue {
+    background-color: #2f96dc;
+}
+
+#green {
+    background-color: #2ac767;
+}
+
+#red {
+    background-color: #ef3e3e;
+}
+
+#red:hover {
+    background-color: #d03333;
+}
+
+#green:hover {
+    background-color: #23a254;
+}
+
+#blue:hover {
+    background-color: #2981bd;
+}
+
+.invalid {
+    border-bottom: 2px solid #ef3e3e !important;
+}
+
+.valid {
+    border-bottom: 2px solid #2ac767 !important;
+}
+
+#form input {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #d0cdcd;
+    outline: none;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+#form input:focus {
+    border-bottom: 1px solid #2981bd;
+}
+
+#form button {
+     padding: 11px 20px;
+     font-size: 14px;
+     border-radius: 4px;
+     color: #fff;
+     background-color: #395cbf;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     -webkit-transition: .2s linear;
+     -moz-transition: .2s linear;
+     -ms-transition: .2s linear;
+     -o-transition: .2s linear;
+     transition: .2s linear;
+}
+
+#form button:hover {
+    background-color: #324579;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+#loggedIn {
+    display: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1.hi {
+    margin-top: 70px;
+    display: block;
+}
+
+#logOut {
+    display: none;
+    background-color: #395cbf;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+#logOut:hover {
+    background-color: #324579;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
